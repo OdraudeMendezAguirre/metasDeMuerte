@@ -440,7 +440,7 @@ module.exports = content.locals || {};
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\sheir\OneDrive\Escritorio\Odraude\metasDeMuerte\src\styles.scss */"./src/styles.scss");
+module.exports = __webpack_require__(/*! C:\users\sheir\OneDrive\Escritorio\Odraude\metasDeMuerte\src\styles.scss */"./src/styles.scss");
 
 
 /***/ })
