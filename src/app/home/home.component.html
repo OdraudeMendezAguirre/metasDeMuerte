@@ -17,10 +17,10 @@
   
     <div class = "col">
      
-      <p class="sm">Agrega el nombre de una cancion .</p>
+      <p class="sm">Agrega el nombre y album de una cancion .</p>
       <form>
         <input type="text" class="txt" name="item" placeholder="Life goal..." [(ngModel)]= "goalText">
-        
+        <input type="text" class="txt" name="item2" placeholder="Life goal..." [(ngModel)]= "goalalbum">
         
         <input type="submit" class ="btn" value="{{ btntxt }}" (click)="AgregarMeta()">
       </form>

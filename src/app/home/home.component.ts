@@ -35,7 +35,8 @@ export class HomeComponent implements OnInit {
   
   itemCount: number;
   btntxt: string ="Agregar Cancion";
-  goalText: string ="nombre cancion"; 
+  goalalbum: string="";
+  goalText: string =""; 
   goals=[];
   constructor(private _data: DataService) { }
 
@@ -58,8 +59,8 @@ export class HomeComponent implements OnInit {
   AgregarMeta(){
 
     var payload = {
-      nombre: "Cirice",
-      album: "Infesstissumam"
+      nombre: this.goalText,
+      album: this.goalalbum
     }
 
     this._data.newGoal(payload)
